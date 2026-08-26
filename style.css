@@ -51,7 +51,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid #6d5acf;
-    animation: typing 1.2s steps(27, end) forwards, blink 0.75s infinite;
+    animation: typing 1.2s steps(30, end) forwards, blink 0.75s infinite;
 }
 
 @keyframes typing {
