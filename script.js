@@ -58,11 +58,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }, 1000);
 
-    // 4. CTA Button Behavior
+    // 4. CTA Button Behavior - Direct Lulu Conversion
     const enterBtn = document.getElementById("enter-btn");
     if (enterBtn) {
         enterBtn.addEventListener("click", () => {
-            alert(`Entering the Void... Total visits logged: ${visitCount}`);
+            window.location.href = "https://www.lulu.com/shop/dr-e-mercer-kimi/uncontrolled-optimization/ebook/product-e7qgrnd.html?utm_source=void_l3&utm_medium=browser_extension&utm_campaign=l4_conversion";
         });
     }
 });
